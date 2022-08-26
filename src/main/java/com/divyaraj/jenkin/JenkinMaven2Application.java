@@ -15,7 +15,7 @@ public class JenkinMaven2Application {
 	}
 	
 	@GetMapping("/hello")
-	public String welcome() {
+	public String hello() {
 		return "hiii parem this is raj...*************";
 	}
 	
