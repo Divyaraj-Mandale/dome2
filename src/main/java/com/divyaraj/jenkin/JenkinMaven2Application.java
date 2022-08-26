@@ -14,6 +14,11 @@ public class JenkinMaven2Application {
 		return "welcome to gl ************************************good enjoy";
 	}
 	
+	@GetMapping("/hello")
+	public String welcome() {
+		return "hiii parem this is raj...*************";
+	}
+	
 	public static void main(String[] args) {
 		SpringApplication.run(JenkinMaven2Application.class, args);
 	}
