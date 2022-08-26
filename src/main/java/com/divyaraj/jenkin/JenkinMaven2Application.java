@@ -11,7 +11,7 @@ public class JenkinMaven2Application {
 
 	@GetMapping("/welcome")
 	public String welcome() {
-		return "welcome to gl";
+		return "welcome to gl ************************************good enjoy";
 	}
 	
 	public static void main(String[] args) {
