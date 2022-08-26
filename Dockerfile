@@ -1,6 +1,6 @@
 # Pull base image 
-From tomcat:8-jre8 
+From openjdk:11
 
-# Maintainer 
-MAINTAINER "valaxytech@gmail.com" 
-COPY ./webapp.war /usr/local/tomcat/webapps
+COPY target/demo-0.0.1.jar /
+WORKDIR /
+CMD ["java" ,"-jar", "demo-0.0.1.jar"]
