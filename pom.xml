@@ -9,9 +9,8 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.divyaraj</groupId>
-	<artifactId>com.divyaraj.jenkin</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<artifactId>demo</artifactId>
+	<version>0.0.1</version>
 	<name>jenkin-maven-2</name>
 	<description>jenkin-maven project</description>
 	<properties>
